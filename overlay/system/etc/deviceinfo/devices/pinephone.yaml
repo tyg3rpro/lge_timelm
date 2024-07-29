@@ -1,0 +1,18 @@
+timelm:
+  Names:
+    - timelm
+  PrettyName: V60 ThinQ
+  DeviceType: phone
+  GridUnit: 20
+  SupportedOrientations:
+    - Portrait
+  MirAndroidPlatformClientEglFlush:
+    - "all"
+  MirAndroidPlatformServerEglSync:
+    - true
+  MirAndroidPlatformServerPartialUpdates:
+    - true
+  BacklightSysfsPath: /sys/class/backlight/panel0-backlight
+  VibrateDurationExtraMs: 50
+  FlashlightSysfsPath: "/sys/class/leds/led:torch_0/brightness"
+  FlashlightSwitchPath: "/sys/class/leds/led:switch_0/brightness"
